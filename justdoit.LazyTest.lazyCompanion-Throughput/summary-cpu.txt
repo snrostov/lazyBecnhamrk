@@ -1,0 +1,422 @@
+--- Execution profile ---
+Total samples       : 4387
+
+--- 9820000000 ns (22.38%), 982 samples
+  [ 0] org.openjdk.jmh.infra.Blackhole.consumeFull
+  [ 1] org.openjdk.jmh.infra.Blackhole.consume
+  [ 2] justdoit.LazyTest.lazyCompanion
+  [ 3] justdoit.jmh_generated.LazyTest_lazyCompanion_jmhTest.lazyCompanion_thrpt_jmhStub
+  [ 4] justdoit.jmh_generated.LazyTest_lazyCompanion_jmhTest.lazyCompanion_Throughput
+  [ 5] jdk.internal.reflect.NativeMethodAccessorImpl.invoke0
+  [ 6] jdk.internal.reflect.NativeMethodAccessorImpl.invoke
+  [ 7] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke
+  [ 8] java.lang.reflect.Method.invoke
+  [ 9] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [10] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [11] java.util.concurrent.FutureTask.run
+  [12] java.util.concurrent.Executors$RunnableAdapter.call
+  [13] java.util.concurrent.FutureTask.run
+  [14] java.util.concurrent.ThreadPoolExecutor.runWorker
+  [15] java.util.concurrent.ThreadPoolExecutor$Worker.run
+  [16] java.lang.Thread.run
+
+--- 5660000000 ns (12.90%), 566 samples
+  [ 0] justdoit.jmh_generated.LazyTest_lazyCompanion_jmhTest.lazyCompanion_thrpt_jmhStub
+  [ 1] justdoit.jmh_generated.LazyTest_lazyCompanion_jmhTest.lazyCompanion_Throughput
+  [ 2] jdk.internal.reflect.NativeMethodAccessorImpl.invoke0
+  [ 3] jdk.internal.reflect.NativeMethodAccessorImpl.invoke
+  [ 4] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke
+  [ 5] java.lang.reflect.Method.invoke
+  [ 6] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [ 7] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [ 8] java.util.concurrent.FutureTask.run
+  [ 9] java.util.concurrent.Executors$RunnableAdapter.call
+  [10] java.util.concurrent.FutureTask.run
+  [11] java.util.concurrent.ThreadPoolExecutor.runWorker
+  [12] java.util.concurrent.ThreadPoolExecutor$Worker.run
+  [13] java.lang.Thread.run
+
+--- 5270000000 ns (12.01%), 527 samples
+  [ 0] org.openjdk.jmh.infra.Blackhole.consumeFull
+  [ 1] org.openjdk.jmh.infra.Blackhole.consume
+  [ 2] justdoit.LazyTest.lazyCompanion
+  [ 3] justdoit.jmh_generated.LazyTest_lazyCompanion_jmhTest.lazyCompanion_thrpt_jmhStub
+  [ 4] justdoit.jmh_generated.LazyTest_lazyCompanion_jmhTest.lazyCompanion_Throughput
+  [ 5] jdk.internal.reflect.NativeMethodAccessorImpl.invoke0
+  [ 6] jdk.internal.reflect.NativeMethodAccessorImpl.invoke
+  [ 7] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke
+  [ 8] java.lang.reflect.Method.invoke
+  [ 9] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [10] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [11] java.util.concurrent.FutureTask.run
+  [12] java.util.concurrent.Executors$RunnableAdapter.call
+  [13] java.util.concurrent.FutureTask.run
+  [14] java.util.concurrent.ThreadPoolExecutor.runWorker
+  [15] java.util.concurrent.ThreadPoolExecutor$Worker.run
+  [16] java.lang.Thread.run
+
+--- 5240000000 ns (11.94%), 524 samples
+  [ 0] org.openjdk.jmh.infra.Blackhole.consumeFull
+  [ 1] org.openjdk.jmh.infra.Blackhole.consume
+  [ 2] justdoit.LazyTest.lazyCompanion
+  [ 3] justdoit.jmh_generated.LazyTest_lazyCompanion_jmhTest.lazyCompanion_thrpt_jmhStub
+  [ 4] justdoit.jmh_generated.LazyTest_lazyCompanion_jmhTest.lazyCompanion_Throughput
+  [ 5] jdk.internal.reflect.NativeMethodAccessorImpl.invoke0
+  [ 6] jdk.internal.reflect.NativeMethodAccessorImpl.invoke
+  [ 7] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke
+  [ 8] java.lang.reflect.Method.invoke
+  [ 9] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [10] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [11] java.util.concurrent.FutureTask.run
+  [12] java.util.concurrent.Executors$RunnableAdapter.call
+  [13] java.util.concurrent.FutureTask.run
+  [14] java.util.concurrent.ThreadPoolExecutor.runWorker
+  [15] java.util.concurrent.ThreadPoolExecutor$Worker.run
+  [16] java.lang.Thread.run
+
+--- 4830000000 ns (11.01%), 483 samples
+  [ 0] org.openjdk.jmh.infra.Blackhole.consume
+  [ 1] justdoit.LazyTest.lazyCompanion
+  [ 2] justdoit.jmh_generated.LazyTest_lazyCompanion_jmhTest.lazyCompanion_thrpt_jmhStub
+  [ 3] justdoit.jmh_generated.LazyTest_lazyCompanion_jmhTest.lazyCompanion_Throughput
+  [ 4] jdk.internal.reflect.NativeMethodAccessorImpl.invoke0
+  [ 5] jdk.internal.reflect.NativeMethodAccessorImpl.invoke
+  [ 6] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke
+  [ 7] java.lang.reflect.Method.invoke
+  [ 8] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [ 9] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [10] java.util.concurrent.FutureTask.run
+  [11] java.util.concurrent.Executors$RunnableAdapter.call
+  [12] java.util.concurrent.FutureTask.run
+  [13] java.util.concurrent.ThreadPoolExecutor.runWorker
+  [14] java.util.concurrent.ThreadPoolExecutor$Worker.run
+  [15] java.lang.Thread.run
+
+--- 4810000000 ns (10.96%), 481 samples
+  [ 0] org.openjdk.jmh.infra.Blackhole.consumeFull
+  [ 1] org.openjdk.jmh.infra.Blackhole.consume
+  [ 2] justdoit.LazyTest.lazyCompanion
+  [ 3] justdoit.jmh_generated.LazyTest_lazyCompanion_jmhTest.lazyCompanion_thrpt_jmhStub
+  [ 4] justdoit.jmh_generated.LazyTest_lazyCompanion_jmhTest.lazyCompanion_Throughput
+  [ 5] jdk.internal.reflect.NativeMethodAccessorImpl.invoke0
+  [ 6] jdk.internal.reflect.NativeMethodAccessorImpl.invoke
+  [ 7] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke
+  [ 8] java.lang.reflect.Method.invoke
+  [ 9] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [10] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [11] java.util.concurrent.FutureTask.run
+  [12] java.util.concurrent.Executors$RunnableAdapter.call
+  [13] java.util.concurrent.FutureTask.run
+  [14] java.util.concurrent.ThreadPoolExecutor.runWorker
+  [15] java.util.concurrent.ThreadPoolExecutor$Worker.run
+  [16] java.lang.Thread.run
+
+--- 3280000000 ns (7.48%), 328 samples
+  [ 0] justdoit.jmh_generated.LazyTest_lazyCompanion_jmhTest.lazyCompanion_thrpt_jmhStub
+  [ 1] justdoit.jmh_generated.LazyTest_lazyCompanion_jmhTest.lazyCompanion_Throughput
+  [ 2] jdk.internal.reflect.NativeMethodAccessorImpl.invoke0
+  [ 3] jdk.internal.reflect.NativeMethodAccessorImpl.invoke
+  [ 4] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke
+  [ 5] java.lang.reflect.Method.invoke
+  [ 6] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [ 7] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [ 8] java.util.concurrent.FutureTask.run
+  [ 9] java.util.concurrent.Executors$RunnableAdapter.call
+  [10] java.util.concurrent.FutureTask.run
+  [11] java.util.concurrent.ThreadPoolExecutor.runWorker
+  [12] java.util.concurrent.ThreadPoolExecutor$Worker.run
+  [13] java.lang.Thread.run
+
+--- 2000000000 ns (4.56%), 200 samples
+  [ 0] org.openjdk.jmh.infra.Blackhole.consumeFull
+  [ 1] org.openjdk.jmh.infra.Blackhole.consume
+  [ 2] justdoit.LazyTest.lazyCompanion
+  [ 3] justdoit.jmh_generated.LazyTest_lazyCompanion_jmhTest.lazyCompanion_thrpt_jmhStub
+  [ 4] justdoit.jmh_generated.LazyTest_lazyCompanion_jmhTest.lazyCompanion_Throughput
+  [ 5] jdk.internal.reflect.NativeMethodAccessorImpl.invoke0
+  [ 6] jdk.internal.reflect.NativeMethodAccessorImpl.invoke
+  [ 7] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke
+  [ 8] java.lang.reflect.Method.invoke
+  [ 9] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [10] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [11] java.util.concurrent.FutureTask.run
+  [12] java.util.concurrent.Executors$RunnableAdapter.call
+  [13] java.util.concurrent.FutureTask.run
+  [14] java.util.concurrent.ThreadPoolExecutor.runWorker
+  [15] java.util.concurrent.ThreadPoolExecutor$Worker.run
+  [16] java.lang.Thread.run
+
+--- 1300000000 ns (2.96%), 130 samples
+  [ 0] java.lang.ref.Reference.<init>
+  [ 1] java.lang.ref.Reference.<init>
+  [ 2] java.lang.ref.WeakReference.<init>
+  [ 3] org.openjdk.jmh.infra.Blackhole.consumeFull
+  [ 4] org.openjdk.jmh.infra.Blackhole.consume
+  [ 5] justdoit.LazyTest.lazyCompanion
+  [ 6] justdoit.jmh_generated.LazyTest_lazyCompanion_jmhTest.lazyCompanion_thrpt_jmhStub
+  [ 7] justdoit.jmh_generated.LazyTest_lazyCompanion_jmhTest.lazyCompanion_Throughput
+  [ 8] jdk.internal.reflect.NativeMethodAccessorImpl.invoke0
+  [ 9] jdk.internal.reflect.NativeMethodAccessorImpl.invoke
+  [10] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke
+  [11] java.lang.reflect.Method.invoke
+  [12] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [13] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [14] java.util.concurrent.FutureTask.run
+  [15] java.util.concurrent.Executors$RunnableAdapter.call
+  [16] java.util.concurrent.FutureTask.run
+  [17] java.util.concurrent.ThreadPoolExecutor.runWorker
+  [18] java.util.concurrent.ThreadPoolExecutor$Worker.run
+  [19] java.lang.Thread.run
+
+--- 1240000000 ns (2.83%), 124 samples
+  [ 0] org.openjdk.jmh.infra.Blackhole.consumeFull
+  [ 1] justdoit.jmh_generated.LazyTest_lazyCompanion_jmhTest.lazyCompanion_thrpt_jmhStub
+  [ 2] justdoit.jmh_generated.LazyTest_lazyCompanion_jmhTest.lazyCompanion_Throughput
+  [ 3] jdk.internal.reflect.NativeMethodAccessorImpl.invoke0
+  [ 4] jdk.internal.reflect.NativeMethodAccessorImpl.invoke
+  [ 5] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke
+  [ 6] java.lang.reflect.Method.invoke
+  [ 7] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [ 8] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [ 9] java.util.concurrent.FutureTask.run
+  [10] java.util.concurrent.Executors$RunnableAdapter.call
+  [11] java.util.concurrent.FutureTask.run
+  [12] java.util.concurrent.ThreadPoolExecutor.runWorker
+  [13] java.util.concurrent.ThreadPoolExecutor$Worker.run
+  [14] java.lang.Thread.run
+
+--- 170000000 ns (0.39%), 17 samples
+  [ 0] __psynch_cvwait
+  [ 1] os::PlatformMonitor::wait(long)
+  [ 2] Monitor::wait_without_safepoint_check(long)
+  [ 3] WatcherThread::sleep() const
+  [ 4] WatcherThread::run()
+  [ 5] Thread::call_run()
+  [ 6] thread_native_entry(Thread*)
+  [ 7] _pthread_start
+  [ 8] thread_start
+
+--- 70000000 ns (0.16%), 7 samples
+  [ 0] java.lang.ref.Reference.<init>
+  [ 1] java.lang.ref.Reference.<init>
+  [ 2] java.lang.ref.WeakReference.<init>
+  [ 3] org.openjdk.jmh.infra.Blackhole.consumeFull
+  [ 4] justdoit.jmh_generated.LazyTest_lazyCompanion_jmhTest.lazyCompanion_Throughput
+  [ 5] jdk.internal.reflect.NativeMethodAccessorImpl.invoke0
+  [ 6] jdk.internal.reflect.NativeMethodAccessorImpl.invoke
+  [ 7] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke
+  [ 8] java.lang.reflect.Method.invoke
+  [ 9] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [10] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [11] java.util.concurrent.FutureTask.run
+  [12] java.util.concurrent.Executors$RunnableAdapter.call
+  [13] java.util.concurrent.FutureTask.run
+  [14] java.util.concurrent.ThreadPoolExecutor.runWorker
+  [15] java.util.concurrent.ThreadPoolExecutor$Worker.run
+  [16] java.lang.Thread.run
+
+--- 20000000 ns (0.05%), 2 samples
+  [ 0] StatSampler::collect_sample()
+  [ 1] PeriodicTask::real_time_tick(int)
+  [ 2] WatcherThread::run()
+  [ 3] Thread::call_run()
+  [ 4] thread_native_entry(Thread*)
+  [ 5] _pthread_start
+  [ 6] thread_start
+
+--- 20000000 ns (0.05%), 2 samples
+  [ 0] __psynch_cvwait
+  [ 1] os::PlatformMonitor::wait(long)
+  [ 2] Monitor::wait_without_safepoint_check(long)
+  [ 3] VMThread::loop()
+  [ 4] VMThread::run()
+  [ 5] Thread::call_run()
+  [ 6] thread_native_entry(Thread*)
+  [ 7] _pthread_start
+  [ 8] thread_start
+
+--- 20000000 ns (0.05%), 2 samples
+  [ 0] __psynch_cvwait
+  [ 1] os::PlatformMonitor::wait(long)
+  [ 2] Monitor::wait(long, bool)
+  [ 3] CompileQueue::get()
+  [ 4] CompileBroker::compiler_thread_loop()
+  [ 5] JavaThread::thread_main_inner()
+  [ 6] JavaThread::run()
+  [ 7] Thread::call_run()
+  [ 8] thread_native_entry(Thread*)
+  [ 9] _pthread_start
+  [10] thread_start
+
+--- 10000000 ns (0.02%), 1 sample
+  [ 0] cerror_nocancel
+  [ 1] os::PlatformMonitor::wait(long)
+  [ 2] Monitor::wait_without_safepoint_check(long)
+  [ 3] VMThread::loop()
+  [ 4] VMThread::run()
+  [ 5] Thread::call_run()
+  [ 6] thread_native_entry(Thread*)
+  [ 7] _pthread_start
+  [ 8] thread_start
+
+--- 10000000 ns (0.02%), 1 sample
+  [ 0] MonitorLocker::wait(long, bool)
+  [ 1] WatcherThread::run()
+  [ 2] Thread::call_run()
+  [ 3] thread_native_entry(Thread*)
+  [ 4] _pthread_start
+  [ 5] thread_start
+
+--- 10000000 ns (0.02%), 1 sample
+  [ 0] java.io.ObjectStreamClass.lookup
+  [ 1] java.io.ObjectOutputStream.writeObject0
+  [ 2] java.io.ObjectOutputStream.writeArray
+  [ 3] java.io.ObjectOutputStream.writeObject0
+  [ 4] java.io.ObjectOutputStream.defaultWriteFields
+  [ 5] java.io.ObjectOutputStream.writeSerialData
+  [ 6] java.io.ObjectOutputStream.writeOrdinaryObject
+  [ 7] java.io.ObjectOutputStream.writeObject0
+  [ 8] java.io.ObjectOutputStream.writeObject
+  [ 9] org.openjdk.jmh.runner.link.BinaryLinkClient.pushFrame
+  [10] org.openjdk.jmh.runner.link.BinaryLinkClient.access$000
+  [11] org.openjdk.jmh.runner.link.BinaryLinkClient$1.invoke
+  [12] com.sun.proxy.$Proxy0.iterationResult
+  [13] org.openjdk.jmh.runner.BaseRunner.runBenchmark
+  [14] org.openjdk.jmh.runner.BaseRunner.runBenchmark
+  [15] org.openjdk.jmh.runner.BaseRunner.doSingle
+  [16] org.openjdk.jmh.runner.BaseRunner.runBenchmarksForked
+  [17] org.openjdk.jmh.runner.ForkedRunner.run
+  [18] org.openjdk.jmh.runner.ForkedMain.main
+
+--- 10000000 ns (0.02%), 1 sample
+  [ 0] StatSamplerTask::task()
+  [ 1] WatcherThread::run()
+  [ 2] Thread::call_run()
+  [ 3] thread_native_entry(Thread*)
+  [ 4] _pthread_start
+  [ 5] thread_start
+
+--- 10000000 ns (0.02%), 1 sample
+  [ 0] pthread_testcancel
+  [ 1] os::PlatformMonitor::wait(long)
+  [ 2] Monitor::wait_without_safepoint_check(long)
+  [ 3] WatcherThread::sleep() const
+  [ 4] WatcherThread::run()
+  [ 5] Thread::call_run()
+  [ 6] thread_native_entry(Thread*)
+  [ 7] _pthread_start
+  [ 8] thread_start
+
+--- 10000000 ns (0.02%), 1 sample
+  [ 0] __gettimeofday
+  [ 1] os::PlatformMonitor::wait(long)
+  [ 2] Monitor::wait_without_safepoint_check(long)
+  [ 3] WatcherThread::sleep() const
+  [ 4] WatcherThread::run()
+  [ 5] Thread::call_run()
+  [ 6] thread_native_entry(Thread*)
+  [ 7] _pthread_start
+  [ 8] thread_start
+
+--- 10000000 ns (0.02%), 1 sample
+  [ 0] __psynch_mutexwait
+  [ 1] _pthread_mutex_firstfit_lock_slow
+  [ 2] _pthread_cond_wait
+  [ 3] os::PlatformMonitor::wait(long)
+  [ 4] Monitor::wait(long, bool)
+  [ 5] CompileQueue::get()
+  [ 6] CompileBroker::compiler_thread_loop()
+  [ 7] JavaThread::thread_main_inner()
+  [ 8] JavaThread::run()
+  [ 9] Thread::call_run()
+  [10] thread_native_entry(Thread*)
+  [11] _pthread_start
+  [12] thread_start
+
+--- 10000000 ns (0.02%), 1 sample
+  [ 0] _pthread_cond_updateval
+  [ 1] _pthread_cond_wait
+  [ 2] os::PlatformMonitor::wait(long)
+  [ 3] Monitor::wait_without_safepoint_check(long)
+  [ 4] WatcherThread::sleep() const
+  [ 5] WatcherThread::run()
+  [ 6] Thread::call_run()
+  [ 7] thread_native_entry(Thread*)
+  [ 8] _pthread_start
+  [ 9] thread_start
+
+--- 10000000 ns (0.02%), 1 sample
+  [ 0] GrowableArray<Instruction*>::appendAll(GrowableArray<Instruction*> const*)
+  [ 1] ValueStack::ValueStack(ValueStack*, ValueStack::Kind, int)
+  [ 2] ValueStack::copy_for_parsing()
+  [ 3] GraphBuilder::connect_to_end(BlockBegin*)
+  [ 4] GraphBuilder::iterate_all_blocks(bool)
+  [ 5] GraphBuilder::GraphBuilder(Compilation*, IRScope*)
+  [ 6] IRScope::IRScope(Compilation*, IRScope*, int, ciMethod*, int, bool)
+  [ 7] IR::IR(Compilation*, ciMethod*, int)
+  [ 8] Compilation::build_hir()
+  [ 9] Compilation::compile_java_method()
+  [10] Compilation::compile_method()
+  [11] Compilation::Compilation(AbstractCompiler*, ciEnv*, ciMethod*, int, BufferBlob*, DirectiveSet*)
+  [12] Compiler::compile_method(ciEnv*, ciMethod*, int, DirectiveSet*)
+  [13] CompileBroker::invoke_compiler_on_method(CompileTask*)
+  [14] CompileBroker::compiler_thread_loop()
+  [15] JavaThread::thread_main_inner()
+  [16] JavaThread::run()
+  [17] Thread::call_run()
+  [18] thread_native_entry(Thread*)
+  [19] _pthread_start
+  [20] thread_start
+
+--- 10000000 ns (0.02%), 1 sample
+  [ 0] __psynch_cvwait
+  [ 1] os::PlatformMonitor::wait(long)
+  [ 2] Monitor::wait_without_safepoint_check(long)
+  [ 3] G1YoungRemSetSamplingThread::sleep_before_next_cycle()
+  [ 4] G1YoungRemSetSamplingThread::run_service()
+  [ 5] ConcurrentGCThread::run()
+  [ 6] Thread::call_run()
+  [ 7] thread_native_entry(Thread*)
+  [ 8] _pthread_start
+  [ 9] thread_start
+
+--- 10000000 ns (0.02%), 1 sample
+  [ 0] CompileQueue::get()
+  [ 1] CompileBroker::compiler_thread_loop()
+  [ 2] JavaThread::thread_main_inner()
+  [ 3] JavaThread::run()
+  [ 4] Thread::call_run()
+  [ 5] thread_native_entry(Thread*)
+  [ 6] _pthread_start
+  [ 7] thread_start
+
+--- 10000000 ns (0.02%), 1 sample
+  [ 0] pthread_mutex_lock
+  [ 1] Mutex::lock_without_safepoint_check()
+  [ 2] VMThread::loop()
+  [ 3] VMThread::run()
+  [ 4] Thread::call_run()
+  [ 5] thread_native_entry(Thread*)
+  [ 6] _pthread_start
+  [ 7] thread_start
+
+          ns  percent  samples  top
+  ----------  -------  -------  ---
+ 28380000000   64.69%     2838  org.openjdk.jmh.infra.Blackhole.consumeFull
+  8940000000   20.38%      894  justdoit.jmh_generated.LazyTest_lazyCompanion_jmhTest.lazyCompanion_thrpt_jmhStub
+  4830000000   11.01%      483  org.openjdk.jmh.infra.Blackhole.consume
+  1370000000    3.12%      137  java.lang.ref.Reference.<init>
+   220000000    0.50%       22  __psynch_cvwait
+    20000000    0.05%        2  StatSampler::collect_sample()
+    10000000    0.02%        1  __gettimeofday
+    10000000    0.02%        1  __psynch_mutexwait
+    10000000    0.02%        1  _pthread_cond_updateval
+    10000000    0.02%        1  cerror_nocancel
+    10000000    0.02%        1  java.io.ObjectStreamClass.lookup
+    10000000    0.02%        1  StatSamplerTask::task()
+    10000000    0.02%        1  MonitorLocker::wait(long, bool)
+    10000000    0.02%        1  GrowableArray<Instruction*>::appendAll(GrowableArray<Instruction*> const*)
+    10000000    0.02%        1  CompileQueue::get()
+    10000000    0.02%        1  pthread_mutex_lock
+    10000000    0.02%        1  pthread_testcancel
+
